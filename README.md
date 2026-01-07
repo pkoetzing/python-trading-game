@@ -42,6 +42,12 @@ Realistic power spot price simulator with mean-reversion, jump events, and volat
    pip install -e ".[dev]"
    ```
 
+3b. **Alternatively, use `uv` to manage environment and dependencies**
+
+   ```bash
+   uv uv --native-tls sync
+   ``` 
+
 ### Running the Simulator
 
 Start the interactive Streamlit application:

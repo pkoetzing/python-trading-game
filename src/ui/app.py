@@ -191,7 +191,7 @@ def main() -> None:
         ).properties(
             height=500
         )
-        st.altair_chart(chart, use_container_width=True)
+        st.altair_chart(chart, width='stretch')
 
     # Display metrics - using keys to prevent flickering
     with col_info:
